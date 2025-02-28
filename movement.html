@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movement & Music in Early Childhood</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff9a8b, #ff6a88, #ff99ac);
+            overflow-x: hidden;
+        }
+        header {
+            background: #ff3d73;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 26px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        nav {
+            text-align: center;
+            background: #ff7597;
+            padding: 12px;
+        }
+        nav a {
+            color: white;
+            margin: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffd1dc;
+        }
+        .container {
+            width: 85%;
+            margin: 30px auto;
+            padding: 25px;
+            background: white;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            animation: slideUp 1s ease-in-out;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+        .section img {
+            width: 45%;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .section img:hover {
+            transform: scale(1.05);
+        }
+        .text-box {
+            width: 50%;
+            padding: 20px;
+            background: #ffe4e1;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .animated-text {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            animation: bounce 2s infinite;
+            color: #ff3d73;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #ff3d73;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Movement & Music in Early Childhood</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="art.html">Art</a>
+        <a href="drama.html">Drama & Puppetry</a>
+        <a href="movement.html">Movement & Music</a>
+        <a href="language.html">Language & Literacy</a>
+        <a href="science.html">Science</a>
+        <a href="engineering.html">Engineering</a>
+        <a href="technology.html">Technologies</a>
+        <a href="math.html">Mathematics & Numeracy</a>
+        <a href="humanities.html">Humanities & Social Sciences</a>
+        <a href="integrated.html">Integrated Curriculum</a>
+        <a href="references.html">References</a>
+    </nav>
+    <div class="container">
+        <p class="animated-text">Let's Move & Groove!</p>
+        <div class="section">
+            <div class="text-box">
+                <h2>Why Movement Matters?</h2>
+                <p>Physical movement enhances motor skills, coordination, and brain development. Incorporating movement into learning activities improves engagement and memory retention.</p>
+            </div>
+            <img src="images/music1.jpg" alt="Children dancing joyfully">
+        </div>
+        <div class="section">
+            <img src="music1.jpg" alt="Kids playing musical instruments">
+            <div class="text-box">
+                <h2>Music for Learning</h2>
+                <p>Music fosters creativity, rhythm, and emotional expression. It also supports language development and cognitive skills in young children.</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="text-box">
+                <h2>Interactive Activities</h2>
+                <p>Combining movement and music through dance, singing, and interactive games helps children develop social and cognitive abilities while having fun.</p>
+            </div>
+            <img src="activity1.jpg" alt="Kids participating in a movement activity">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Creativity in Early Childhood Education</p>
+    </footer>
+</body>
+</html>

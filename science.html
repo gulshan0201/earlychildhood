@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science in Early Childhood</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #00c6ff, #0072ff);
+            overflow-x: hidden;
+            color: white;
+        }
+        header {
+            background: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        nav {
+            text-align: center;
+            background: #00509e;
+            padding: 12px;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #cce7ff;
+        }
+        .container {
+            width: 85%;
+            margin: 30px auto;
+            padding: 25px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            animation: slideIn 1s ease-in-out;
+        }
+        .science-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+        .science-section img {
+            width: 45%;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+        .science-section img:hover {
+            transform: scale(1.1);
+        }
+        .text-box {
+            width: 50%;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            backdrop-filter: blur(8px);
+        }
+        .highlight {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ffeb3b;
+            text-shadow: 0 0 5px rgba(255, 235, 59, 0.8);
+            animation: glow 1.5s infinite alternate;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #003366;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 10px rgba(255, 235, 59, 1); }
+            to { text-shadow: 0 0 20px rgba(255, 235, 59, 0.8); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Science in Early Childhood</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="art.html">Art</a>
+        <a href="drama.html">Drama & Puppetry</a>
+        <a href="movement.html">Movement & Music</a>
+        <a href="language.html">Language & Literacy</a>
+        <a href="science.html">Science</a>
+        <a href="engineering.html">Engineering</a>
+        <a href="technology.html">Technologies</a>
+        <a href="math.html">Mathematics & Numeracy</a>
+        <a href="humanities.html">Humanities & Social Sciences</a>
+        <a href="integrated.html">Integrated Curriculum</a>
+        <a href="references.html">References</a>
+    </nav>
+    <div class="container">
+        <div class="science-section">
+            <div class="text-box">
+                <h2>The Wonders of Science</h2>
+                <p>Science is all about curiosity and discovery. It encourages children to explore, ask questions, and experiment to understand the world around them.</p>
+                <p class="highlight">“Tell me and I forget, teach me and I may remember, involve me and I learn.” – Benjamin Franklin</p>
+            </div>
+            <img src="images/science1.jpg" alt="Children experimenting with science projects">
+        </div>
+        <div class="science-section">
+            <img src="images/science.png" alt="Kids engaged in a STEM activity">
+            <div class="text-box">
+                <h2>Fun Science Activities</h2>
+                <ul>
+                    <li>Simple chemistry experiments (volcano eruption, mixing colors)</li>
+                    <li>Exploring nature and collecting specimens</li>
+                    <li>Building simple machines and structures</li>
+                    <li>Learning about the solar system with interactive models</li>
+                </ul>
+            </div>
+        </div>
+        <div class="science-section">
+            <div class="text-box">
+                <h2>The Role of Science in Daily Life</h2>
+                <p>Science is everywhere! From cooking in the kitchen to weather changes, scientific principles play a crucial role in everyday life.</p>
+            </div>
+            <img src="images/science4.jpg" alt="Children observing nature and insects">
+        </div>
+        <div class="science-section">
+            <img src="images/science3.jpg" alt="Kids using a microscope for observation">
+            <div class="text-box">
+                <h2>Introducing Technology</h2>
+                <p>Technology is a significant part of science education. Early exposure to tools like microscopes and magnifying glasses encourages hands-on learning.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Creativity in Early Childhood Education</p>
+    </footer>
+</body>
+</html>

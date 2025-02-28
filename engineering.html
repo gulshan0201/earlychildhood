@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering in Early Childhood</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #f9a826, #ff6700);
+            overflow-x: hidden;
+            color: white;
+        }
+        header {
+            background: #d35400;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        nav {
+            text-align: center;
+            background: #e67e22;
+            padding: 12px;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffdab9;
+        }
+        .container {
+            width: 85%;
+            margin: 30px auto;
+            padding: 25px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            animation: slideIn 1s ease-in-out;
+        }
+        .engineering-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+        .engineering-section img {
+            width: 45%;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+        .engineering-section img:hover {
+            transform: scale(1.1);
+        }
+        .text-box {
+            width: 50%;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            backdrop-filter: blur(8px);
+        }
+        .highlight {
+            font-size: 22px;
+            font-weight: bold;
+            color: #0d0d0b;
+            text-shadow: 0 0 5px rgba(255, 204, 41, 0.8);
+            animation: glow 1.5s infinite alternate;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #d35400;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 10px rgb(44, 42, 35); }
+            to { text-shadow: 0 0 20px rgba(20, 20, 18, 0.8); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Engineering in Early Childhood</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="art.html">Art</a>
+        <a href="drama.html">Drama & Puppetry</a>
+        <a href="movement.html">Movement & Music</a>
+        <a href="language.html">Language & Literacy</a>
+        <a href="science.html">Science</a>
+        <a href="engineering.html">Engineering</a>
+        <a href="technology.html">Technologies</a>
+        <a href="math.html">Mathematics & Numeracy</a>
+        <a href="humanities.html">Humanities & Social Sciences</a>
+        <a href="integrated.html">Integrated Curriculum</a>
+        <a href="references.html">References</a>
+    </nav>
+    <div class="container">
+        <div class="engineering-section">
+            <div class="text-box">
+                <h2>The Role of Engineering</h2>
+                <p>Engineering helps children understand problem-solving, creativity, and logical thinking. It teaches them how to build, design, and create solutions to real-world problems. 
+                    Through engineering, children develop a sense of curiosity and inquiry, learning how things work and how they can improve existing designs. Engineering principles also encourage children to think critically and analyze different possibilities before reaching a solution.
+                    Engaging in hands-on engineering activities at an early age can help develop essential skills such as teamwork, patience, and perseverance. It also fosters a growth mindset, where children learn to view failures as opportunities for improvement. 
+                </p>
+                <p class="highlight">“Engineers turn dreams into reality.”</p>
+            </div>
+            <img src="images/eng1.webp" alt="Children building structures with blocks">
+        </div>
+        <div class="engineering-section">
+            <img src="images/eng2.webp" alt="Kids working on a robotics project">
+            <div class="text-box">
+                <h2>Hands-on Engineering Activities</h2>
+                <ul>
+                    <li>Building towers with different materials, testing stability and height</li>
+                    <li>Creating bridges using popsicle sticks and testing their strength with weights</li>
+                    <li>Exploring robotics with simple machines, including motorized movements</li>
+                    <li>Understanding gears, pulleys, and levers through interactive demonstrations</li>
+                    <li>Designing and launching paper rockets to explore aerodynamics</li>
+                    <li>Constructing catapults to learn about force and trajectory</li>
+                </ul>
+            </div>
+        </div>
+        <div class="engineering-section">
+            <div class="text-box">
+                <h2>Why Engineering is Important?</h2>
+                <p>Engineering builds confidence and encourages children to become problem solvers by allowing them to tackle real-world challenges creatively and logically. Through hands-on activities, children develop critical thinking skills, spatial reasoning, and the ability to analyze and troubleshoot problems. It also fosters teamwork, as many engineering projects require collaboration, communication, and the sharing of ideas. Additionally, engineering teaches perseverance by showing children that failure is a step toward success, encouraging them to experiment, adapt, and improve their designs.</p>
+            </div>
+            <img src="images/blue.jpeg" alt="Kids designing with blueprints">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Creativity in Early Childhood Education</p>
+    </footer>
+</body>
+</html>
