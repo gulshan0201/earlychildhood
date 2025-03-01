@@ -1,80 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creativity in Early Childhood Education</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            overflow-x: hidden;
+            background: #5c99a1;
+            color: #333;
         }
+
         header {
-            background: #005f73;
+            background: url('images/header-bg.jpg') no-repeat center center/cover;
             color: white;
-            padding: 20px;
+            padding: 60px 20px;
             text-align: center;
-            font-size: 24px;
-            animation: fadeIn 1.5s ease-in-out;
+            font-size: 28px;
+            font-weight: bold;
         }
+
         nav {
             text-align: center;
-            background: #0a9396;
-            padding: 10px;
+            background: #ff6f61;
+            padding: 12px;
         }
+
         nav a {
             color: white;
-            margin: 10px;
+            margin: 15px;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 20px;
             transition: color 0.3s ease;
         }
+
         nav a:hover {
-            color: #94d2bd;
+            color: #ffd1dc;
         }
+
         .container {
-            width: 80%;
-            margin: 20px auto;
-            padding: 20px;
+            width: 85%;
+            margin: 30px auto;
+            padding: 30px;
             background: white;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            animation: slideUp 1s ease-in-out;
+            box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
         }
-        .image-container {
+
+        .section {
             display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            padding: 25px;
+            background: rgba(155, 210, 234, 0.9);
+            border-radius: 12px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .image-container img {
-            width: 30%;
-            border-radius: 10px;
-            transition: transform 0.3s ease;
+
+        .section:nth-child(even) {
+            flex-direction: row-reverse;
         }
-        .image-container img:hover {
-            transform: scale(1.1);
+
+        .section img {
+            width: 45%;
+            border-radius: 12px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
         }
+
+        .text-content {
+            width: 50%;
+            padding: 20px;
+        }
+
+        .text-content h2 {
+            color: #ff6f61;
+            font-size: 24px;
+        }
+
+        .text-content p {
+            font-size: 15px;
+            line-height: 1.8;
+        }
+
         footer {
             text-align: center;
-            padding: 10px;
-            background: #005f73;
+            padding: 15px;
+            background: #ff6f61;
             color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        @keyframes slideUp {
-            from { transform: translateY(20px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
+            margin-top: 20px;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Creativity in Early Childhood Education</h1>
@@ -94,17 +115,59 @@
         <a href="references.html">References</a>
     </nav>
     <div class="container">
-        <h2>Welcome to Creativity in Early Childhood Education</h2>
-        <p>Creativity is a fundamental part of early childhood education, fostering a child's imagination, problem-solving abilities, and emotional expression. Teachers play a crucial role in nurturing creativity by providing a supportive and stimulating learning environment.</p>
-        <p>In this website, we explore various ways educators can integrate creativity into the curriculum, covering subjects such as art, drama, music, language, mathematics, science, and more.</p>
-        <div class="image-container">
-            <img src="images/1.jpeg" alt="Children painting in class">
-            <img src="images/drama.jpg" alt="Kids engaged in drama play">
-            <img src="images/music.jpeg" alt="Music session with children">
+        <div class="section">
+            <img src="images/creative1.png" alt="Children engaged in creative play">
+            <div class="text-content">
+                <h2>The Importance of Creativity</h2>
+                <p>Engaging in creative experiences supports the development of essential cognitive, social, and
+                    emotional skills. When children create, they learn to think outside the box, make decisions, and
+                    approach challenges from different perspectives. Artistic exploration enhances fine motor skills,
+                    hand-eye coordination, and spatial awareness, while storytelling and dramatic play strengthen
+                    communication and language development. Music and rhythm-based activities improve auditory
+                    processing, pattern recognition, and emotional expression.</p>
+
+                <p>Encouraging creativity in early childhood also nurtures curiosity and a love for learning. By
+                    providing a safe and open environment where children feel free to take risks and experiment,
+                    educators help them develop a growth mindset. When children realize that mistakes are part of the
+                    creative process, they build resilience and perseverance—qualities that are vital for future
+                    academic and personal success. Hands-on, open-ended activities allow children to engage with their
+                    surroundings, fostering deeper connections with the world around them.</p>
+
+            </div>
+        </div>
+        <div class="section">
+            <div class="text-content">
+                <h2>How Creativity Enhances Learning</h2>
+                <p>Creativity fosters cognitive, social, and emotional growth. Studies have shown that children who
+                    engage in creative activities perform better in academic subjects, as they develop critical thinking
+                    and problem-solving skills. Creative activities like drama and music encourage communication and
+                    collaboration, teaching children
+                    valuable interpersonal skills that help them succeed in school and life.</p>
+                <p>By integrating creativity into early childhood education, educators empower children to become
+                    innovative thinkers, confident learners, and expressive individuals. A strong foundation in creative
+                    exploration sets the stage for lifelong learning, adaptability, and a deep appreciation for the arts
+                    and self-expression.</p>
+            </div>
+            <img src="images/creative3.webp" alt="Child learning through painting">
+        </div>
+        <div class="section">
+            <!-- <img src="images/story.jpg" alt="Kids engaging in storytelling"> -->
+            <div class="text-content">
+                <h2>Ways to Promote Creativity in Children</h2>
+                <p>There are various ways to encourage creativity in young children, including:</p>
+                <ul>
+                    <li>Providing open-ended materials for play and exploration.</li>
+                    <li>Incorporating storytelling and role-playing into learning.</li>
+                    <li>Encouraging music, movement, and dance as forms of expression.</li>
+                    <li>Creating a supportive and imaginative environment.</li>
+                </ul>
+            </div>
+            <img src="images/story.jpg" alt="Kids engaging in storytelling">
         </div>
     </div>
     <footer>
         <p>&copy; 2025 Creativity in Early Childhood Education</p>
     </footer>
 </body>
+
 </html>
